@@ -10,6 +10,6 @@ var intervalo = setInterval(function(){
 //SET TIMEOUT(RETARDO DE TIEMPO)
 
 setTimeout(function() {
-  alert("Se cumplió el tiempo")
+  //alert("Se cumplió el tiempo")
   clearInterval(intervalo); //"detieme"
 },5000)
