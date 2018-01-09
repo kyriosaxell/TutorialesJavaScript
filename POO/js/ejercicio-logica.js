@@ -55,6 +55,7 @@ var b = {
     }
     return false;
   },
+
   intervalo: setInterval(function() {
     b.Mac.tono = Math.ceil(Math.random()*2);
     b.Mac.edad = Math.ceil(Math.random()*2);
